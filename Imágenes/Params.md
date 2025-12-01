@@ -58,3 +58,63 @@
 * epocas = 200
 * lote = 32
 * sizeEmbedding = 164
+
+# Params 4
+
+* Sin submuestreo con pesos
+* 2 capa RNN de 64 -> 32
+* L2 = 0.001
+* Dropout = 0.3 dentro de las capas secuenciales
+* Opt Adam LR = 0.00001
+* EarlyStopping
+* epocas = 200
+* lote = 32
+* sizeEmbedding = 164
+
+# Params 5
+
+* Sin submuestreo con pesos
+* 2 capa RNN de 64 -> 32 -> 16
+* L2 = 0.001
+* Dropout = 0.3 dentro de las capas secuenciales
+* Opt Adam LR = 0.00001
+* EarlyStopping
+* epocas = 200
+* lote = 32
+* sizeEmbedding = 164
+
+# Params 6
+
+* Sin submuestreo con pesos
+* 2 capa RNN de 64 -> 32 -> 16
+* L2 = 0.001
+* Dropout = 0.3 dentro de las capas secuenciales
+* Opt Adam LR = 0.00001
+* EarlyStopping
+* epocas = 200
+* lote = 64
+* sizeEmbedding = 164
+
+# Params 7
+
+* Sin submuestreo con pesos
+* 2 capa RNN de 64 -> 32 -> 16 Todas con bidireccional
+* L2 = 0.001
+* Dropout = 0.3 dentro de las capas secuenciales
+* Opt Adam LR = 0.00001
+* EarlyStopping
+* epocas = 200
+* lote = 64
+* sizeEmbedding = 164
+
+# Params 8
+
+* Sin submuestreo con pesos
+* 2 capa RNN de 64 -> 32 -> 16 Solo la primera con bidireccional
+* L2 = 0.001
+* Dropout = 0.3 dentro de las capas secuenciales
+* Opt Adam LR = 0.00001
+* EarlyStopping
+* epocas = 200
+* lote = 64
+* sizeEmbedding = 164
