@@ -118,3 +118,27 @@
 * epocas = 200
 * lote = 64
 * sizeEmbedding = 164
+
+# Params 9
+
+* Sin submuestreo con pesos
+* 3 capa RNN de 64 -> 32 -> 16 Solo la primera con bidireccional
+* L2 = 0.0001, ultima capa sin
+* Dropout = 0.3 dentro de las capas secuenciales, ultima sin
+* Opt Adam LR = 0.00001
+* EarlyStopping
+* epocas = 200
+* lote = 32
+* sizeEmbedding = 164
+
+# Params 10
+
+* Sin submuestreo con pesos
+* 3 capa RNN de 64 -> 32 -> 16 Solo la primera con bidireccional
+* L2 = 0.001, ultima y primera capa, medio 0.0001
+* Dropout = 0.3 dentro de las capas secuenciales, ultima sin, 0.2 medio
+* Opt Adam LR = 0.00001
+* EarlyStopping
+* epocas = 200
+* lote = 32
+* sizeEmbedding = 164
