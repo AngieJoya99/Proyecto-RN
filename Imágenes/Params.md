@@ -59,7 +59,7 @@
 * lote = 32
 * sizeEmbedding = 164
 
-# Params 4
+# 14
 
 * Sin submuestreo con pesos
 * 2 capa RNN de 64 -> 32
@@ -71,7 +71,7 @@
 * lote = 32
 * sizeEmbedding = 164
 
-# Params 5
+# 15
 
 * Sin submuestreo con pesos
 * 2 capa RNN de 64 -> 32 -> 16
